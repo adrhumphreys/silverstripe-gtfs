@@ -1,0 +1,9 @@
+---
+Name: gtfs
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'api/gtfs': 'Adrhumphreys\GTFS\ApiController'

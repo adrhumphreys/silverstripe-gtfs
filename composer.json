@@ -1,0 +1,21 @@
+{
+  "name": "adrhumphreys/silverstripe-gtfs",
+  "description": "Adds GTFS feed consumption capabilities to the site",
+  "keywords": [
+    "silverstripe",
+    "gtfs"
+  ],
+  "type": "silverstripe-vendormodule",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Adrian Humphreys",
+      "email": "adrhumphreys@gmail.com"
+    }
+  ],
+  "require": {
+    "silverstripe/cms": "^4.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
